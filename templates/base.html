@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{% block title %} {% endblock %}</title>
+	<link rel="preload" href="/style.css" as="style">
+	<link rel="stylesheet" type="text/css" href="/style.css" as="style">
+	<link rel="stylesheet" type="text/css" href="/syntax.css"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark light">
+</head>
+
+<body>
+
+	<header>
+
+		<div class="navigation">
+
+			<div class="top-left">
+				<a href="/" title="Homepage"><h1 class=toptxt>Sinan Kurtulmuş</h1></a>
+			</div>
+
+			<div class="top-right">
+				<nav>
+
+					<input type="checkbox" id="hamburger">
+					<label class="navigation-menu" for="hamburger">≡</label>
+					<a href="/blog" {% if "/blog/" in current_path %}class="active"{% endif %}title="Blog">Blog</a>
+					<a href="/handbook" {% if "/handbook/" in current_path %}class="active"{% endif %}title="Handbook">Handbook</a>
+					<a href="/gallery" {% if "/gallery/" in current_path %}class="active"{% endif %}title="Gallery">Gallery</a>
+					<a href="/contact" {% if "/contact/" in current_path %}class="active"{% endif %}title="Contact">Contact</a>
+					<a href="/rss.xml" title="RSS Feed">RSS</a>
+
+				</nav>
+			</div>
+
+		</div>
+
+		<hr>
+
+	</header>
+
+	<main>
+		<div class="justified">
+			{% block content %}{% endblock %}
+		</div>
+
+	</main>
+
+	<footer>
+
+		<hr>
+
+		<div class="info">
+
+			<div class="footer-left">
+				<p>
+				Licensed under a
+				<a href="/license/by.txt">CC BY License.</a>
+				</p>
+				<p>
+				Source code under
+				<a href="/license/isc.txt">ISC License.</a>
+				</p>
+			</div>
+
+			<div class="footer-right">
+				<p>
+				&nbsp;&nbsp;
+				<a href="https://openbsd.org">
+					OpenBSD
+				</a>
+				</p>
+				<p>
+				&nbsp;&nbsp;
+				httpd
+				</p>
+			</div>
+
+		</div>
+
+	</footer>
+
+</body>
+
+</html>

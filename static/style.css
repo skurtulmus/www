@@ -1,0 +1,311 @@
+html {
+	background-color: #12100e;
+	background-image: url("/assets/backgrounds/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border: 25px solid transparent;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	font-family: sans-serif;
+	max-width: 1024px;
+	margin: auto;
+	background-color: #35302f;
+	padding: 25px;
+	color: #ebdbb2;
+	box-shadow: 5px 5px 15px black;
+	min-height: calc(100vh - 100px);
+}
+
+h1 {
+	color: #bacdbf;
+	text-shadow: 5px 5px 15px black;
+	font-size: 150%;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.top-right {
+	margin-top: 25px;
+}
+
+.navigation-menu {
+	font-size: 150%;
+	display: none;
+}
+
+#hamburger {
+	position: absolute;
+	left: -9999px;
+}
+
+nav a {
+	color: #eea595;
+	padding: 5px;
+}
+
+nav a:hover {
+	color: #ebdbb2;
+}
+
+#hamburger:checked + .navigation-menu {
+	color: #bacdbf;
+}
+
+.active {
+	color: #ebdbb2;
+}
+
+hr {
+	border-color: #777777;
+}
+
+main {
+	margin: 25px 0;
+	border: 2px solid #4d5a50;
+	background-color: #1e1c1a;
+	box-shadow: 5px 5px 15px black;
+	min-height: 540px;
+	flex-grow: 1;
+	padding: 2.5% 5% 2.5%;
+}
+
+main a {
+	color: #86a0ff;
+}
+
+main a:visited {
+	color: #e886ff;
+}
+
+.typewriter {
+	font-family: monospace;
+	border-right: 2px solid #ff0000;
+	border-left: none;
+	padding-right: 3px;
+	width: 0;
+	animation: writing 10s steps(12) 1s infinite,
+		blinking 0.5s steps(2) 1s infinite alternate;
+}
+
+.typewriter h2 {
+	height: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-bottom: 5px;
+}
+
+@keyframes writing {
+	from {width: 0;}
+	12%  {width: 18ch;}
+	78%  {width: 18ch;}
+	90%  {width: 0;}
+	to   {width: 0;}
+}
+
+@keyframes blinking {
+	from {border-right-color: 2px solid #ff0000;}
+	to {border-right: none;}
+}
+
+.content img {
+	max-width: 100%;
+}
+
+.text_img {
+	text-align: center;
+	margin: 25px auto;
+}
+
+.split {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.split-1 {
+	flex: 1.5;
+	width: 75%;
+}
+
+.split-2 {
+	flex: 1;
+	margin: 5%;
+	text-align: right;
+}
+
+.split-2 img {
+	max-height: 350px;
+	box-shadow: 5px 5px 15px black;
+}
+
+.justified {
+	text-align: justify;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 75%;
+}
+
+.info a {
+	color: #86a0ff;
+}
+
+.info a:visited {
+	color: #86a0ff;
+}
+
+code {
+	font-size: 13px;
+	background: #0b0a0a;
+	color: #cfcfcf
+}
+
+pre {
+	padding: 1rem;
+	overflow: auto;
+	box-shadow: 5px 5px 15px black;
+	margin: 30px 0;
+}
+
+.note {
+	color: #c6e6d2;
+	background-color: black;
+	border: 1px solid #738678;
+	padding: 10px;
+}
+
+table {
+	margin: 25px auto;
+}
+
+th, td {
+	background-color: #556655;
+	padding: 5px;
+	text-align: center;
+}
+
+.gallery {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.gallery p {
+	margin: 0;
+}
+
+.gallery img {
+	width: 200px;
+	height: 150px;
+}
+
+@media only screen and (max-width: 1280px) {
+
+	body {
+		max-width: 900px;
+	}
+
+	.gallery img {
+		width: 175px;
+		height: 131px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	nav a {
+		display: none;
+	}
+
+	.navigation-menu {
+		display: block;
+		text-align: right;
+		margin-top: -10px;
+	}
+
+	.navigation-menu:hover {
+		cursor: pointer;
+	}
+
+	@keyframes menu-fade {
+		from {opacity: 0;}
+		to {opacity: 1;}
+	}
+
+	#hamburger:checked ~ a {
+		display: block;
+		text-align: right;
+		padding: 10px 0;
+		animation: menu-fade 1s;
+	}
+
+	.split {
+		flex-flow: column;
+	}
+
+	.split-2 img {
+		max-height: 75px;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.gallery img {
+		width: 150px;
+		height: 112px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+	body {
+		max-width: 668px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	html {
+		border: 0px;
+	}
+
+	body {
+		background-color: rgba(130, 130, 120, 0.2);
+	}
+
+	.justified {
+		text-align: left;
+	}
+
+}
+
+@media only screen and (max-width: 580px) {
+
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}

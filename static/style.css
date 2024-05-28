@@ -170,10 +170,12 @@ main a:visited {
 	color: #86a0ff;
 }
 
-code {
-	font-size: 13px;
+p code {
+	font-size: 14px;
 	background: #0b0a0a;
-	color: #cfcfcf
+	color: #cf6f6f;
+	padding: 2px 3px;
+	border: 1px solid #444444;
 }
 
 pre {

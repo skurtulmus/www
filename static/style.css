@@ -142,7 +142,7 @@ main {
 	color: #86a0ff;
 }
 
-p code {
+p code, .note code {
 	font-size: 14px;
 	background: #0a0a0a;
 	color: #cf6f6f;

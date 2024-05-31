@@ -1,9 +1,5 @@
 html {
-	background-color: #12100e;
-	background-image: url("/assets/backgrounds/bg.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: #12100e url("/assets/backgrounds/bg.jpg") no-repeat fixed center;
 	background-size: cover;
 	border: 25px solid transparent;
 }
@@ -16,7 +12,7 @@ body {
 	margin: auto;
 	background-color: #35302f;
 	padding: 25px;
-	color: #ebdbb2;
+	color: #ebdbb8;
 	box-shadow: 5px 5px 15px black;
 	min-height: calc(100vh - 100px);
 }
@@ -30,7 +26,6 @@ h1 {
 .navigation {
 	display: flex;
 	justify-content: space-between;
-	align-items: top;
 }
 
 .navigation a {
@@ -56,16 +51,12 @@ nav a {
 	padding: 5px;
 }
 
-nav a:hover {
-	color: #ebdbb2;
+nav a:hover, .active {
+	color: #ebdbb8;
 }
 
 #hamburger:checked + .navigation-menu {
 	color: #bacdbf;
-}
-
-.active {
-	color: #ebdbb2;
 }
 
 hr {
@@ -73,6 +64,7 @@ hr {
 }
 
 main {
+	text-align: justify;
 	margin: 25px 0;
 	border: 2px solid #4d5a50;
 	background-color: #1e1c1a;
@@ -82,18 +74,9 @@ main {
 	padding: 2.5% 5% 2.5%;
 }
 
-main a {
-	color: #86a0ff;
-}
-
-main a:visited {
-	color: #e886ff;
-}
-
 .typewriter {
 	font-family: monospace;
 	border-right: 2px solid #ff0000;
-	border-left: none;
 	padding-right: 3px;
 	width: 0;
 	animation: writing 10s steps(12) 1s infinite,
@@ -101,10 +84,9 @@ main a:visited {
 }
 
 .typewriter h2 {
-	height: 1em;
+	height: 1.3em;
 	overflow: hidden;
 	white-space: nowrap;
-	padding-bottom: 5px;
 }
 
 @keyframes writing {
@@ -137,7 +119,6 @@ main a:visited {
 
 .split-1 {
 	flex: 1.5;
-	width: 75%;
 }
 
 .split-2 {
@@ -151,14 +132,9 @@ main a:visited {
 	box-shadow: 5px 5px 15px black;
 }
 
-.justified {
-	text-align: justify;
-}
-
 .info {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	font-size: 75%;
 }
 
@@ -166,13 +142,9 @@ main a:visited {
 	color: #86a0ff;
 }
 
-.info a:visited {
-	color: #86a0ff;
-}
-
 p code {
 	font-size: 14px;
-	background: #0b0a0a;
+	background: #0a0a0a;
 	color: #cf6f6f;
 	padding: 2px 3px;
 	border: 1px solid #444444;
@@ -220,7 +192,7 @@ th, td {
 	height: 150px;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) and (min-width: 1025){
 
 	body {
 		max-width: 900px;
@@ -229,6 +201,14 @@ th, td {
 	.gallery img {
 		width: 175px;
 		height: 131px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+	body {
+		max-width: 668px;
 	}
 
 }
@@ -280,14 +260,6 @@ th, td {
 
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
-
-	body {
-		max-width: 668px;
-	}
-
-}
-
 @media only screen and (max-width: 768px) {
 
 	html {
@@ -298,7 +270,7 @@ th, td {
 		background-color: rgba(130, 130, 120, 0.2);
 	}
 
-	.justified {
+	main {
 		text-align: left;
 	}
 

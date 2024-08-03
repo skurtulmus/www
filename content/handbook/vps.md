@@ -13,9 +13,6 @@ This is a short guide that goes over the basic steps to quickly set up a VPS - e
 ---
 
 First of all, we need to choose a VPS hosting provider to host our server and make an account.
-I can personally recommend [Vultr](https://www.vultr.com) as I haven't had any problems using it, and it also provides a ready-made image to quickly deploy OpenBSD servers, in addition to Linux distributions and FreeBSD.
-I will also include images to provide assistance with the set-up process on Vultr.
-[DigitalOcean](https://www.digitalocean.com) and [Linode](https://www.linode.com) are other popular providers.
 
 After creating an account, we can provide the necessary payment info and deploy a new server with the preferred configuration.
 
@@ -111,10 +108,10 @@ This provides an additional layer of security.<br><br>
 Losing the keyfile or the password to it will lock you out of the server, so it is important to make sure that they are safe.
 </small></div>
 
-We can add our key to `.ssh/authorized_keys` in the remote user's home directory manually, but `ssh-copy-id` provides an easier way to copy keys to a remote host.
+We can add our public key to `.ssh/authorized_keys` in the remote user's home directory manually, but `ssh-copy-id` provides an easier way to copy keys to a remote host.
 
 ```sh
-user@void: ~$ ssh-copy-id -i ~/.ssh/id_ed25519_0 username@<public-IP>
+user@void: ~$ ssh-copy-id -i ~/.ssh/id_ed25519_0.pub username@<public-IP>
 ```
 
 We need to make a few changes in the `/etc/sshd_config` file on the server.

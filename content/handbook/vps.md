@@ -363,4 +363,4 @@ Here are a few things you can do on your VPS (Updated list):
 
 + [Set up a VPN and a DNS resolver](@/handbook/wireguard.md).
 
-+ Run a VoIP server for voice chat applications (soon).
++ [Run a VoIP server](@/handbook/umurmur.md) for voice chat.

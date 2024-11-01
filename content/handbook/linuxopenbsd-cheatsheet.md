@@ -63,7 +63,7 @@ This page contains a cheatsheet for common commands, operations and files on Ope
     </tr><tr>
         <td style="opacity: 75%;"><code>systemctl list-units --type=service --state=running</code></td><td style="opacity: 75%;"><code>rcctl ls started</code></td>
     </tr><tr>
-        <td style="opacity: 75%;"><code>systemctl list-units --type=service --state=enabled</code></td><td style="opacity: 75%;"><code>rcctl ls enabled</code></td>
+        <td style="opacity: 75%;"><code>systemctl list-units --type=service --state=enabled</code></td><td style="opacity: 75%;"><code>rcctl ls on</code></td>
     </tr>
 </table>
 
@@ -128,6 +128,9 @@ This page contains a cheatsheet for common commands, operations and files on Ope
         <td style="opacity: 75%;"><code>/etc/sysconfig/network-scripts/ifcfg-&lt;interface&gt;</code></td><td style="opacity: 75%;"><code>/etc/hostname.&lt;interface&gt;</code></td>
     </tr><tr>
         <td style="opacity: 75%;"><code>/etc/firewalld/firewalld.conf</code></td><td style="opacity: 75%;"><code>/etc/pf.conf</code></td>
+    </tr><tr>
+        <td style="opacity: 75%;"><code>/var/log/secure</code></td><td style="opacity: 75%;"><code>/var/log/authlog</code></td>
+    </tr>
     </tr><tr>
         <td style="opacity: 75%;"><code>/var/log/nginx</code></td><td style="opacity: 75%;"><code>/var/www/logs</code></td>
     </tr>

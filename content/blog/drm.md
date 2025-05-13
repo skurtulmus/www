@@ -16,8 +16,6 @@ with or uses digital media content. They are used as a measure intended to try
 to stop the illegal and unauthorized distribution of digital copies of
 copyright protected material on the Internet.
 
-<div class="text_img"><img src="/assets/images/blog/lock.jpg"></div>
-
 Well-known companies like Google, Amazon, Apple, Netflix, Spotify, Steam and
 Kobo all make use of DRM software to protect most or all of the copyrighted
 content on their platforms. Yet, not many users are aware of the existence of
@@ -76,8 +74,6 @@ flaws, was a big concern. Many experts have stated that DRM interoperability is
 virtually impossible to achieve, as it introduces large-scale security hazards,
 and a need for quick and seamless cooperation between competing entities
 whenever something malfunctions.
-
-<div class="text_img"><img src="/assets/images/blog/port.jpg"></div>
 
 Nowadays, discussions on interoperability seem to have come to a halt. Numerous
 implementations of DRM systems exist, and ventures for an open standard have

@@ -18,9 +18,7 @@ The dirt road up to the church is steep, curvy and bumpy so we took a 4x4 ride f
 That was the first time I heard about Georgians eating and drinking in cemeteries where they are close to the faithful departed - their loved ones who have passed away - particularly after Pascha and during Pentecostarion, as our driver enthusiastically told us about this tradition that is a proclamation Jesus Christ's victory over death, with his fervent hope invigorated in the Resurrection.
 __For He is not a God of the dead, but of the living: for all live unto Him__ (Luke 20:38).
 
-_Christ is Risen!_
-
-<div class="text_img"><img src="/assets/images/blog/kazbek.jpg"></div>
+<p style="color: #ff0000; text-align: center"><i>Christ is Risen!</i></p>
 
 From the moment you step on Georgian soil, it becomes clear that wine has a special place in the culture.
 It is a symbol of hospitality and friendship.
@@ -34,12 +32,21 @@ It reduces wine to a societal hazard - to a chemical substance with damaging eff
 At the crossroads of unapologetic hedonism and arbitrary moral orientations, an age-old tradition that is ingrained in our philosophy of beauty and practiced in diligent enthusiasm and productive zeal is stripped of its symbolic meaning in a communal sense.
 I believe it is at this point that the contemplative individual might feel compelled to reject this vulgar habit altogether, since we are all called to uphold virtue over vice.
 
+&nbsp;
+
+> _...Do you think we should censure silver and gold because of greedy men, food because of gluttons, wine because of drunkards, attractive women because of fornicators and adulterers, and so on?_
+> _Especially since you recognize that the physician makes good use of fire whereas the poisoner makes evil use of bread!_
+>
+> ___St. Augustine of Hippo___
+
+&nbsp;
+
 I do not believe that antagonizing the substance itself is appropriate here.
 Wine has accompanied human endeavour in good times and bad, and our complicated relationship with it comes into view throughout the Holy Scripture.
 While its subversive effects on a mind that is slave to sin are undeniable, it can also amplify the good, stimulate fruitful discussions and inspire wonderful relationships when the mind is free and properly oriented.
 I believe this has everything to do with how admiration of beauty unlocks a new dimension in our human experience, bringing the roses back to our cheeks.
 
-The late Sir Roger Scruton introduces his wonderful book[^1] as a tribute to pleasure, by a devotee of happiness, and a defence of virtue by an escapee from vice, addresing it to "every thinking person in whom the joy of meditation has not extinguished the pleasures of embodiment".
+The late Sir Roger Scruton introduces his wonderful book<sup>1</sup> as a tribute to pleasure, by a devotee of happiness, and a defence of virtue by an escapee from vice, addresing it to "every thinking person in whom the joy of meditation has not extinguished the pleasures of embodiment".
 At times, we are reminded that there is a natural, good and appropriate way to experience pleasure, through the appreciation of beauty and truth, and subordination to our love for God.
 Although pleasure unto itself is just incoherent at best and a recipe for destruction at worst, while a life without pleasure is quite unpleasant, God is the primary principle brings everything together.
 He has bestowed us with winemaking and the Logos has made sense of it, in Scripture and in liturgical life.
@@ -55,8 +62,6 @@ Then, it tasted a little bit better.
 The desire for beauty found its appropriate place in the collective struggle to preserve and honor the life that we are given.
 The ancient Greeks (and perhaps many others) worshipped an Unkown God along with many other gods, and one of the most important among them was Dionysus (also called Bacchus in Rome), the god of wine.
 Many other traditions had their deities of viticulture.
-
-<div class="text_img"><img src="/assets/images/blog/wine.jpg"></div>
 
 Then the true God walked on the Earth, who was made known to the Greeks by the Apostle ([Acts 17:16-34](https://biblia.com/books/nkjv/Ac17.16-34)).
 He transformed water into wine ([John 2:1-11](https://biblia.com/books/nkjv/Jn2.1-11)).
@@ -77,7 +82,7 @@ Jesus chose bread and wine as the offerings, both of which are deeply symbolic i
 They are gifts that we receive in the form of the seed; we renew them, process them, elevate them, and offer them back to God.
 This is not to be frowned upon; since man is created in the image of God, he is called to replenish the Earth, and subdue it ([Genesis 1:26-28](https://biblia.com/books/nkjv/Ge1.26-28)).
 In the Eucharist, which is more than a symbol or a mere commemoration of events, the offerings - the bread and the wine - are then mystically transformed into the real body and blood of Jesus Christ.
-During the Liturgy, through its divine power, we are projected to the point where eternity cuts across time, and at this point we become true _contemporaries_ with the events which we commemorate[^2].
+During the Liturgy, through its divine power, we are projected to the point where eternity cuts across time, and at this point we become true _contemporaries_ with the events which we commemorate<sup>2</sup>.
 The substance, the symbol of ages, is transformed into the truth, and it gives life ([John 6:51-58](https://biblia.com/books/nkjv/Jn6.51-58)).
 
 In my humble opinion, wine is one of our stronger connections to the past, a richly symbolic chapter in our story, and a catalyst for good conversations and friendships in the future when partaken of in moderation.
@@ -85,6 +90,6 @@ May the Lord sanctify our souls, hallow our bodies, correct our thoughts, cleans
 
 ---
 
-[^1] <small>Scruton, Roger. _I Drink Therefore I am: A Philosopher's Guide to Wine_. Bloomsbury, 2009.</small>
+<sup>1</sup> <small>Scruton, Roger. _I Drink Therefore I am: A Philosopher's Guide to Wine_. Bloomsbury, 2009.</small>
 
-[^2] <small>Ware, Kallistos. _The Orthodox Church_. Penguin, 1993.</small>
+<sup>2</sup> <small>Ware, Kallistos. _The Orthodox Church_. Penguin, 1993.</small>

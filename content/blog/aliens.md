@@ -37,8 +37,6 @@ This argument seems powerful at first glance, but its success depends on a condi
 In fact, to speak more precisely, one could see that if the universe is spatially and/or temporally infinite, and has the capacity for producing such life, then the probability that intelligence outside of Earth exists is exactly 1.
 Moreover, if the universe is at least either spatially or temporally infinite, the probability that there is an infinite number of extraterrestrial intelligent life forms is 1, provided that the same condition is met.
 
-<div class="text_img"><img src="/assets/images/blog/planets.jpg"></div>
-
 If the universe is in fact finite both spatially and temporally, and it has the capacity to produce intelligent life, then we would need to have a rough idea of the probabilities of life and intelligent life emerging by certain mechanisms out of lifelessness, which we do not, because scientific endeavor does not tell us much about the origins of life, besides repurposed indirect inferences about discoveries concerning certain components or materials that are essential for biological life.
 It could be the case that the probability of such life emerging is so low that it is very close to impossible even in some of the largest finite universes one could conceptualize.
 This could mean that there is no good reason to think that it would actually happen more than once.
@@ -95,8 +93,6 @@ Firstly, we have no concrete evidence to support the claim that such beings or c
 Secondly we have established that information about the scale of a finite universe alone is not enough to demonstrate that the existence of such beings is likely.
 The emergence of simpler and non-intelligent extraterrestrial life forms is arguably somewhat more likely - which consequently means that their existence is more plausible - but I do not believe we are justified in claiming that it is more likely than not.
 
-<div class="text_img"><img src="/assets/images/blog/mars.jpg"></div>
-
 With all that being said, the existence of extraterrestrial intelligence could still be a non-negligible possibility, until and unless it is definitively shown to be impossible.
 We could consider the implications of this possibility in relation to Christology, Christian cosmology and soteriology in various ways.
 
@@ -118,8 +114,6 @@ In this case, it would be crucial to consider Christ's incarnation and salvific 
 Some thinkers suggest the possibility of multiple incarnations for each species for their restoration of communion with the Creator.
 Perhaps this could be problematic as the Bible speaks of a sacrifice that is once and for all (Hebrews [9:28](https://biblia.com/books/nkjv/Heb9.28), [10:12-14](https://biblia.com/books/nkjv/Heb10.12-14)).
 On the other hand, if the Incarnation, the Cross and the Resurrection are indeed events that happened once and for _all_ in a particular time and place on Earth (and is made present in the sacraments of the Church - not repeated, but simply unbound by time), then it is to be preached in other worlds as well, just like it was preached here on Earth.
-
-<div class="text_img"><img src="/assets/images/blog/pantocrator.jpg"></div>
 
 ---
 

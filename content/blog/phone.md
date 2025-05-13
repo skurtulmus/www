@@ -28,8 +28,6 @@ receive e-mail, check the weather forecast, or use popular services/
 applications such as Facebook, Whatsapp and Youtube, even though they are not
 fully-featured.
 
-<div class="text_img"><img src="/assets/images/blog/phones.jpg"></div>
-
 There are some reasons people choose to own and use one of these devices over a
 smartphone. First of all, they are fairly cheap because of their hardware with
 much lower specifications, but they aim to provide most of the features that
@@ -80,8 +78,6 @@ experience, it is not the most stable operating system out there. The
 performance in general is subpar. Updates tend to make it even worse, and the
 fact that it runs web applications written in Javascript really doesn't help.
 Perhaps most importantly, it is largely a privacy nightmare.
-
-<div class="text_img"><img src="/assets/images/blog/table.jpg"></div>
 
 The growing interest in "non-smart" solutions for daily communications by
 digital means is in part due to the increasing number of privacy-conscious

@@ -7,7 +7,7 @@ date = 2023-05-15
 
 ---
 
-I recently traveled to Georgia, where I had the blessing of attending the Paschal Divine Liturgy at the [Holy Trinity Cathedral](https://www.sinankurtulmus.net/pictures/travel/sameba-cathedral1.jpg) of Tbilisi, as well as visiting a number of sacred places including the breathtaking [Gergeti Trinity Church](https://www.sinankurtulmus.net/pictures/travel/gergeti-trinity-church.jpg).
+I recently traveled to Georgia, where I had the blessing of attending the Paschal Divine Liturgy at the [Holy Trinity Cathedral](https://www.sinankurtulmus.net/gallery/travel/sameba-cathedral1.jpg) of Tbilisi, as well as visiting a number of sacred places including the breathtaking [Gergeti Trinity Church](https://www.sinankurtulmus.net/gallery/travel/gergeti-trinity-church.jpg).
 I must say that Georgia is a fascinating place; it is one of the oldest Christian countries in the world, home to perhaps the most beautiful and unique musical tradition and sacred hymnody in all of Christendom, and the birthplace of wine.
 I have tremendous respect for this small nation, and for all that they have kept in the face of dire circumstances.
 

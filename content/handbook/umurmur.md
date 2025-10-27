@@ -26,7 +26,7 @@ It is a good idea to edit the configuration file now to define a password (for u
 root@server ~$ tr -dc '[:graph:][:punct:]' 2>&1 < /dev/urandom | dd bs=16 count=1 status=none 2>&1 && printf "\n"
 ```
 
-We can now look for the `password` and the `admin_password` directives in the `/etc/umurur/umurmur.con` file, and insert our generated passwords.
+We can now look for the `password` and the `admin_password` directives in the `/etc/umurmur/umurmur.con` file, and insert our generated passwords.
 
 ```sh
 root@server ~$ vi /etc/umurmur/umurmur.conf

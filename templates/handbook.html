@@ -12,16 +12,16 @@
 	</h2>
 	<br>
 	<ul>
-	  {% for page in section.pages %}
-	  <li>
-		<p>
-			<a href="{{ page.permalink | safe }}">
-				{{ page.title }}
-			</a><br>
-			<small>{{ page.description }}</small><br>
-		</p>
+	{% for page in section.pages %}
+		<li>
+			<p>
+				<a href="{{ page.permalink | safe }}">
+					{{ page.title }}
+				</a><br>
+				<small>{{ page.description }}</small><br>
+			</p>
 		</li>
-	  {% endfor %}
+	{% endfor %}
 	</ul>
 
 </div>

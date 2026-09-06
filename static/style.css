@@ -174,7 +174,7 @@ th, td {
 }
 
 .gallery {
-	display: grid;
+	display: none;
 	justify-content: space-between;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
@@ -189,6 +189,44 @@ th, td {
 .gallery img {
 	width: 200px;
 	height: 150px;
+}
+
+[id^="gallery-"] {
+	position: absolute;
+	left: -9999px;
+}
+
+.gallery-dropdown {
+	display: inline-block;
+	cursor: pointer;
+	color: #eea595;
+	margin: 20px 0 10px;
+	padding: 5px 0;
+	font-size: 120%;
+}
+
+.gallery-dropdown::before {
+	content: "► ";
+}
+
+.gallery-dropdown small {
+	color: #988877;
+}
+
+.gallery-dropdown:hover {
+	color: #ebdbb8;
+}
+
+.gallery-dropdown:hover small {
+	color: #bbab98;
+}
+
+.gallery-checkbox:checked + .gallery-dropdown + .gallery {
+	display: grid;
+}
+
+.gallery-checkbox:checked + .gallery-dropdown::before {
+	content: "▼ ";
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 1025){

@@ -14,15 +14,10 @@ feed_filenames = ["rss.xml"]
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
 
-extra_syntaxes_and_themes = ["themes"]
+[markdown.highlighting]
 
-highlight_theme = "css"
-
-highlight_themes_css = [
-  { theme = "glitterbomb", filename = "syntax.css" },
-]
+theme = "vesper"
 
 [extra]
 # Put all your custom variables here
